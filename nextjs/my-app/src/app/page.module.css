@@ -1,0 +1,30 @@
+
+.test{
+    display: flex;
+    justify-content: center;
+    background-color:#D3756B;
+    height:8rem;
+    
+}
+.btn{
+    background-color:#F0997D;
+    border-style: hidden;
+    height:6rem;
+    width:7rem;
+    margin-top:14px;
+    border-radius:0.3rem;
+    font-size:1.85rem;
+}
+.btn:hover{
+transition-duration: 1000ms;
+background-color:#f0b39f;
+}
+.btn:not(:hover){
+    transition-duration: 1000ms;
+    background-color:#F0997D;
+    }
+.dd{
+    
+    margin-top:20px;
+    background-color:#F0997D;
+    }
